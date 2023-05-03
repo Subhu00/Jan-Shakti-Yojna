@@ -1,0 +1,124 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	width:100%;	
+	min-width:1000px;
+	height:auto;
+	background-color: rgb(188, 219, 218);
+}
+header {
+	background-color: rgb(146, 236, 232);
+	color: #fff;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+img {
+	max-width: 300px;
+}
+
+footer {
+	background-color: black;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+ul {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+li {
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.animate {
+	color: white;
+	transition: all 0.5s ease-in-out;
+	padding-right: 45%;
+}
+.animate:hover {
+	font-size: 35px;
+	color: white;
+}
+.logo{
+	height: 6%;
+	width: 7%;
+}
+nav ul {
+	list-style: none;
+	display: flex;
+}
+nav li {
+	margin-right: 20px;
+}
+nav a {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+nav a:hover {
+	text-decoration: underline;
+}
+.maindiv{
+    width: 98%;
+    height: 535px;
+    position: absolute;
+    left: 50%;
+    top: 61%;
+    transform: translate(-50%, -50%);
+    background-image: url('https://www.wemakescholars.com/uploads/blog/tips-to-maximize-your-chance-of-winning-an-International-Scholarship.webp');
+    background-size: 100% 100%;
+    box-shadow: 1.5px 2.5px 5px #333;
+    animation:slide 15s infinite linear;  
+}
+@keyframes slide{
+    0%{background-image: url('https://www.wemakescholars.com/uploads/blog/tips-to-maximize-your-chance-of-winning-an-International-Scholarship.webp');background-size: 100% 100%; }
+    25%{background-image: url('https://st.adda247.com/https://wpassets.adda247.com/wp-content/uploads/multisite/sites/5/2022/05/13172737/All-schemes-of-government-of-india.png');background-size: 100% 100%; }
+    50%{background-image: url('https://www.jagranimages.com/images/newimg/29092022/29_09_2022-aadhaar_23106696.jpg');background-size: 100% 100%; }
+    75%{background-image: url('https://www.businessleague.in/wp-content/uploads/2020/08/you-may-get-free-pan-card-within-10-minutes.png');background-size: 100% 100%; }
+}
+main{
+	padding-top: 42%;
+	font-size: 23px;
+	font-weight: bold;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2{
+	font-size: 2.1rem;
+    line-height: 1.4;
+    letter-spacing: 0.3rem;
+	text-align: center;
+	color: black;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.imganimate{
+	transition: all 0.5s ease-in-out;
+	height: 210px;
+	width: 350px;
+}
+.imganimate:hover{
+	transform: scale(1.3);
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+.f-img1{
+	width: 20px;
+	height: 20px;
+	padding-left: 500px;
+}
+.f-img{
+	width: 20px;
+	height: 20px;
+	padding-left: 10px;
+}
+.f-img2{
+	width: 30px;
+	height: 30px;
+	padding-left: 10px;
+}
